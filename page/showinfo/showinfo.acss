@@ -1,0 +1,30 @@
+.page{
+    background-color: #f0f0f0;
+}
+
+view{
+    box-sizing: border-box;
+    display: block;
+}
+
+.cu-list{
+    border-top: 2rpx solid #eee;
+    margin-bottom: 20rpx;
+}
+
+.cu-item{
+    position: relative;
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30rpx;
+    min-height: 90rpx;
+    border-bottom: 2rpx solid #eee;
+}
+
+.tag {
+    font-size: 30rpx;
+    line-height: 1.6em;
+    flex: 1;
+}

@@ -1,0 +1,47 @@
+<view a:if="{{!items}}" style="margin: 20rpx 0; text-align: center;">
+  <text>没有详细数据</text>
+</view>
+
+<view a:if="{{items}}" a:for="{{items}}">
+  <view class="cu-list">
+    <view class="cu-item">
+      <view class="tag">
+        <text>姓名</text>
+      </view>
+      <view class="data">
+        <text>{{item.user_name}}</text>
+      </view>
+    </view>
+
+    <view class="cu-item">
+      <view class="tag">
+        <text>手机号码</text>
+      </view>
+      <view class="data">
+        <text>{{item.mobile}}</text>
+      </view>
+    </view>
+
+    <view class="cu-item">
+      <view class="tag">
+        <text>进入时间</text>
+      </view>
+      <view class="data">
+        <text>{{item.create_at}}</text>
+      </view>
+    </view>
+
+    <view class="cu-item">
+      <view class="tag">
+        <text>实验室名称</text>
+      </view>
+      <view class="data">
+        <text>{{item.lab_name}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+<button type="primary" onTap="onBack">
+  <text>返回</text>
+</button>

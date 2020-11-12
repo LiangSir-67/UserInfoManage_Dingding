@@ -1,0 +1,6 @@
+<view>
+    <button type="primary" size="" onTap="DDSaoMa"> 请使用钉钉扫码 </button>
+</view>
+<view>
+  <button type="primary" size="" onTap="jump">查看历史信息</button>
+</view>
